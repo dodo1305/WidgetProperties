@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:editable="false"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:clickable="false"
+        android:rotation="60"
+        />
+
+    <!-- android:editable="false" 지금은 사용가능 그러나 나중에는 사라질수도-->
+</LinearLayout>
